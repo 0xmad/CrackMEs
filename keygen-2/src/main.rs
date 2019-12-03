@@ -74,7 +74,7 @@ fn get_alphabeth() -> Vec<u32> {
 }
 
 fn main() {
-    println!("Crackme OTUS-1 Keygen by tmbrlkV");
+    println!("Crackme OTUS-1 Keygen by errmac-v");
     println!("------------------------------");
 
     let login = generate_login();

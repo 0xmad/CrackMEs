@@ -1,7 +1,7 @@
 [package]
 name = "keygen-2"
 version = "0.1.0"
-authors = ["tmbrlkV"]
+authors = ["errmac-v"]
 edition = "2018"
 
 [dependencies]

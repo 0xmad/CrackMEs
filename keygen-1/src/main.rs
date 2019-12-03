@@ -3,8 +3,8 @@ use rand::prelude::random;
 const LOGIN_MAX_SIZE: u8 = 29;
 const ALPHABETH_SIZE: u8 = 25;
 
-const LOGIN_XOR: u16 = 22136; // 5678h
-const SERIAL_XOR: u16 = 4660; // 1234h
+const LOGIN_XOR: u16 = 0x5678;
+const SERIAL_XOR: u16 = 0x1234;
 
 fn generate_login() -> String {
     let size = random::<u8>() % LOGIN_MAX_SIZE + 1;
@@ -20,7 +20,7 @@ fn get_login_hash(login: String) -> u16 {
 }
 
 fn main() {
-    println!("Crackme v1.0 Keygen by tmbrlkV");
+    println!("Crackme v1.0 Keygen by errmac-v");
     println!("------------------------------");
 
     let login = generate_login();
